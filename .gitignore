@@ -1,0 +1,46 @@
+# Ignore Visual Studio specific folders
+.vs/
+*.user
+*.suo
+
+# Ignore build outputs
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore auto-generated files
+*.cache
+*.log
+*.pdb
+*.tmp
+
+# Ignore compiled binaries
+*.dll
+*.exe
+
+# Ignore publish folders
+publish/
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore temporary folders
+TestResults/
+ipch/
+x64/
+x86/
+.vscode/
+
+# Ignore images that should not be pushed (optional)
+# Uncomment if you don't want to push uploaded user images
+# images/*.jpg
+# images/*.png
+
+# Allow only default image
+!images/no-image.jpg
